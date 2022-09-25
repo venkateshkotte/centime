@@ -13,8 +13,9 @@ Implemented using
 4. Spring AOP  - For custom logging
 5. Spring Cloud Sleuth -  For requests tracing.
 6. log4j2 - for logging
-7. @LogMethodParams - to log the method parameters.
-8. Docker - created docker images and deployed in Amazon EC2.
+7. Swagger UI - for documentation
+8. @LogMethodParams - to log the method parameters.
+9. Docker - created docker images and deployed in Amazon EC2.
 
 Swagger UI URL
 http://ec2-65-2-168-145.ap-south-1.compute.amazonaws.com:8080/swagger-ui.html#/dba-controller
