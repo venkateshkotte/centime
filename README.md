@@ -19,4 +19,10 @@ Implemented using
 
 Swagger UI URL
 http://ec2-65-2-168-145.ap-south-1.compute.amazonaws.com:8080/swagger-ui.html#/dba-controller
+
+SSH to EC2
+ssh -i "mumbai-key-pair.pem" ec2-user@ec2-65-2-168-145.ap-south-1.compute.amazonaws.com
+
+Logs location
+/var/lib/docker/overlay2/bf14a500f1e68f1793e115623f601f3a0f77f2792cfee2cc8df0b55ed5b20fbc/merged/tmp/logs/database-application.log
  
